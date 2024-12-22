@@ -15,17 +15,17 @@ sudo sh get-docker.sh
 #### 从release获取官方脚本并执行以安装 Docker：  
 
 ```bash
-curl -fsSL https://github.com/FujiiTaki/docker-install/releases/latest/download/Linux.sh -o Linux.sh
-chmod +x Linux.sh
-sudo ./Linux.sh
+curl -fsSL https://github.com/FujiiTaki/docker-install/releases/latest/download/linux.sh -o linux.sh
+chmod +x linux.sh
+sudo ./linux.sh
 ```
 #### 添加代理版本（适用于网络访问受限的环境）：
 
 ##### [代理发布页](https://ghproxy.link/),如当前代理地址不可用获取最新代理地址替换 https://ghgo.xyz/
 ```bash
-curl -fsSL https://ghgo.xyz/https://github.com/FujiiTaki/docker-install/releases/latest/download/Linux.sh -o Linux.sh
-chmod +x Linux.sh
-sudo ./Linux.sh
+curl -fsSL https://ghgo.xyz/https://github.com/FujiiTaki/docker-install/releases/latest/download/linux.sh -o linux.sh
+chmod +x linux.sh
+sudo ./linux.sh
 ```
 ### 3. 桌面版本安装包
 #### 详见[release](https://github.com/FujiiTaki/docker-install/releases/tag/latest)
